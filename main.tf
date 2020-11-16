@@ -1,5 +1,4 @@
 // Creates bastion EC2 instance
-
 resource "random_shuffle" "public_subnet" {
   input = var.gitlab_public_subnets
   result_count = 1
